@@ -1,0 +1,43 @@
+{
+  "name": "react-native-nativeios-scanner",
+  "version": "1.0.0",
+  "description": "A QR code & Barcode Scanner for React Native Projects.",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "*.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/pushpender-singh-ap/react-native-nativeios-scanner",
+  "author": "Pushpender Singh <pushpendersingh694@gmail.com> (https://github.com/pushpender-singh-ap)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pushpender-singh-ap/react-native-nativeios-scanner/issues"
+  },
+  "homepage": "https://github.com/pushpender-singh-ap/react-native-nativeios-scanner#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "ReactNativeNativeIOSScannerSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.reactnativenativeiosscanner"
+    }
+  }
+}
